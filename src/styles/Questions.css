@@ -1,0 +1,45 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+  }  
+  .outline-button {
+    background-color: transparent;
+    border: 2px solid #7825E9;
+    color: #7825E9;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+  }
+  
+  .outline-button:hover {
+    background-color: #7825E9;
+    color: white;
+  }
+  
+  .primary-button {
+    background-color: #7825E9;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+
+  }
+  
+  .primary-button:hover {
+    background-color: #7825E9;
+  }
+  .wrapperClassName{
+    border: 1px solid #B1B1B1;
+    height:300px;
+    border-radius:4px;
+  }

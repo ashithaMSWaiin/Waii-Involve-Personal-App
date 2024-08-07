@@ -1,0 +1,75 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "${{TEAMS_APP_ID}}",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "${{TAB_ENDPOINT}}",
+        "privacyUrl": "${{TAB_ENDPOINT}}/index.html#/privacy",
+        "termsOfUseUrl": "${{TAB_ENDPOINT}}/index.html#/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Waii-Involve${{APP_NAME_SUFFIX}}",
+        "full": "Full name for Waii-Involve"
+    },
+    "description": {
+        "short": "Short description of Waii-Involve",
+        "full": "Full description of Waii-Involve"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [
+        {
+            "entityId": "index0",
+            "name": "HomePage",
+            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/home",
+            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/home",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index1",
+            "name": "Questions",
+            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/questions",
+            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/questions",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index2",
+            "name": "Resources",
+            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/resources",
+            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/resources",
+            "scopes": [
+                "personal"
+            ]
+        },
+        {
+            "entityId": "index3",
+            "name": "Invoices",
+            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/invoices",
+            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/invoices",
+            "scopes": [
+                "personal"
+            ]
+        }
+        
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "${{TAB_DOMAIN}}"
+    ]
+}

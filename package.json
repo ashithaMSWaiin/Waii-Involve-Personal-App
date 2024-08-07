@@ -1,0 +1,71 @@
+{
+    "name": "Waii-Involve",
+    "version": "0.1.0",
+    "engines": {
+        "node": "16 || 18"
+    },
+    "private": true,
+    "dependencies": {
+        "@fluentui/react-charting": "^5.14.10",
+        "@fluentui/react-components": "^9.18.0",
+        "@fluentui/react-icons": "^2.0.186",
+        "@fortawesome/fontawesome-svg-core": "^6.6.0",
+        "@fortawesome/free-solid-svg-icons": "^6.6.0",
+        "@fortawesome/react-fontawesome": "^0.2.2",
+        "@microsoft/teams-js": "^2.19.0",
+        "@microsoft/teamsfx": "^2.2.0",
+        "@microsoft/teamsfx-react": "^3.0.0",
+        "@waiin/raaghu-react": "^1.1.6",
+        "@waiin/raaghu-react-themes": "^1.0.4",
+        "bootstrap": "^5.3.3",
+        "draft-js": "^0.11.7",
+        "npmlog": "^7.0.1",
+        "raaghu-react-core": "^1.0.23",
+        "raaghu-react-themes": "^7.0.21",
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.10.4",
+        "react-dom": "^18.2.0",
+        "react-draft-wysiwyg": "^1.15.0",
+        "react-dropzone": "^14.2.3",
+        "react-icons": "^5.2.1",
+        "react-router-dom": "^6.26.0",
+        "react-scripts": "^5.0.1"
+    },
+    "devDependencies": {
+        "@types/draft-js": "^0.11.18",
+        "@types/node": "^18.0.0",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "@types/react-draft-wysiwyg": "^1.13.8",
+        "@types/react-dropzone": "^5.1.0",
+        "@types/react-router-dom": "^5.3.3",
+        "env-cmd": "^10.1.0",
+        "typescript": "^4.1.2"
+    },
+    "scripts": {
+        "dev:teamsfx": "env-cmd --silent -f .localConfigs npm run start",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "homepage": "."
+}

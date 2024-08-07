@@ -1,0 +1,68 @@
+
+  
+  .required-star {
+    color: red;
+    padding-left:2px;
+    height:8px;
+    width:8px;
+  }
+  .radio-label {
+    color: var(--text-txt-neutral-medium-default, #646464);
+    text-align: left;
+    font-family: var(
+      --txt-s-regular-14-font-family,
+      "Poppins-Regular",
+      sans-serif
+    );
+    font-size: var(--txt-s-regular-14-font-size, 14px);
+    line-height: var(--txt-s-regular-14-line-height, 20px);
+    font-weight: var(--txt-s-regular-14-font-weight, 400);
+    position: relative;
+  }
+  .form-check-input:checked {
+    background-color: #7825E9 !important;
+    border-color: #7825E9 !important;
+}
+.select-wrapper {
+    position: relative;
+  }
+  
+  .select-control {
+    padding-right: 30px; /* Adjust based on the icon size */
+    color:#969696;
+    border-radius: var(--Corner-Radius-radius-xs, 4px);
+    border: 1px solid var(--Input-input-neutral-outline-default, #B1B1B1);
+    font-size: 14px;
+    font-weight: 400;
+    background: var(--Background-bg-neutral-lighter-default, #FFF);
+  }
+  
+  .chevron-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color:#969696;
+  }
+.mb-125{
+    margin-bottom:.125rem;
+}
+.select-control option:checked {
+    background-color: #7825E9;
+    color: white; /* Optional: to make the text color white */
+  }
+  .select-control:hover{
+    color:#969696;
+    background: var(--Background-bg-neutral-lighter-default, #FFF);
+  }
+  .form-label{
+    font-size:16px;
+    font-weight:400;
+    color:#353535;
+  }
+  .form-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #353535;
+  }
