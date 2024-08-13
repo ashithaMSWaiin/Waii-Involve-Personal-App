@@ -1,7 +1,5 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -40,3 +38,16 @@
 .read-the-docs {
   color: #888;
 }
+.margin-25{
+  margin-left:25px !important ;
+}
+.size{
+  width:276px;
+  height:34px;
+}
+.font-size-24{
+  font-size: 1.5rem !important;
+}
+.pl-5{
+  padding-right: 5px !important;}
+
