@@ -1,0 +1,85 @@
+.wrapperContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.wrapperContainer.right {
+    justify-content: flex-end;
+}
+
+.wrapperContainer.left {
+    justify-content: flex-start;
+}
+
+.container-collapse {
+    width: 324px;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px solid #ede1e1;
+    visibility: visible;
+}
+
+.container-collapse.collapsed-container {
+    width: 50px;
+    border-radius: 3%;
+}
+
+
+.collapse-button-for-container {
+    border: none;
+    background: #3089D1;
+    border-radius: 50%;
+    font-size: 1em;
+    cursor: pointer;
+    color: #fff;
+    padding-bottom: 2px !important;
+}
+
+.menu-item-collapsible-container {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-item-collapsible-container i {
+    margin-right: 10px;
+}
+
+.collapsed-container .menu-item-collapsible-container span {
+    padding-left: 2px !important;
+}
+
+.collapsed-container .menu-item-collapsible-container i {
+    margin: 0;
+}
+
+#fixedSidebar{
+    height: calc(100vh - 10px) !important;
+}
+#new-question-btn{width:276px !important;
+}
+.pl-23{
+    padding-left:23px !important;
+}
+#fixedSidebar .menu-item-collapsible-container:hover:has(svg) {
+    color: #7e2eef;
+    background: #f5f5fa;
+}
+
+#fixedSidebar .menu-item-collapsible-container:hover svg {
+    width: 22px;
+    height: 22px;
+    fill: none;
+    stroke: #7e2eef;
+    transition: all .6s linear;
+    transform: scale(.9);
+}
+/* #new-question-btn:active{
+    background-color: #7e2eef;
+    color:white;
+} */
